@@ -1,0 +1,671 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="color-scheme" content="light dark">
+<title>Слоты для новичков 2026 — разбор RTP, волатильности и бонусов</title>
+<meta name="description" content="Разбор слотов для новичков на 2026 год по пунктам: как читать RTP и его версии, волатильность и дисперсия, линии и Ways, scatter и wild, бай-бонус, вейджер и max bet при отыгрыше, демо-режим.">
+<link rel="canonical" href="https://sloty-dlya-novichkov210.github.io/">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Слоты для новичков 2026 — разбор условий и правил автоматов">
+<meta property="og:description" content="По пунктам и простым языком: RTP и его версии, волатильность, линии и Ways, бонусные символы, бай-бонус, вейджер и максимальная ставка при отыгрыше, демо-режим.">
+<meta property="og:url" content="https://sloty-dlya-novichkov210.github.io/">
+<meta property="og:locale" content="ru_RU">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Literata:opsz,wght@7..72,400..600;7..72,700&family=Golos+Text:wght@400;500;600;700&display=swap">
+<style>
+:root{
+  --rz-paper:#f4f1ea;--rz-card:#fffdf8;--rz-card2:#ece7dd;--rz-raise:#ffffff;
+  --rz-ink:#1b1916;--rz-ink2:#524c43;--rz-ink3:#6f6759;
+  --rz-line:#dcd6c9;--rz-line2:#b7ae9d;
+  --rz-copper:#9c4716;--rz-copper2:#b5551d;--rz-copper-soft:#f2e1d2;--rz-oncopper:#fff6ee;
+  --rz-good:#2d7561;--rz-good-soft:#dcebe3;--rz-bad:#9f2f24;--rz-bad-soft:#f4dfdb;
+  --rz-warn:#8a6414;--rz-warn-soft:#f1e8cf;--rz-sel:#f2e1d2;--rz-track:#d9d3c7;
+  --rz-c1:#9a6d12;--rz-c2:#2a78d6;--rz-c3:#1baf7a;--rz-c4:#eb6834;--rz-c5:#4a3aa7;
+  --rz-serif:"Literata","Iowan Old Style","PT Serif",Georgia,serif;
+  --rz-sans:"Golos Text","Segoe UI",Roboto,system-ui,sans-serif;
+  --rz-text:760px;--rz-wide:1060px;--rz-hero:900px;--rz-pad:clamp(16px,4vw,26px);--rz-gap:clamp(42px,6vw,78px);
+  --rz-r1:3px;--rz-r2:7px;--rz-r3:11px;--rz-r4:15px;
+  --rz-sh1:0 1px 0 rgba(27,25,22,.05),0 1px 2px rgba(27,25,22,.06);
+  --rz-sh2:0 2px 6px rgba(27,25,22,.08),0 14px 26px -14px rgba(27,25,22,.2);
+  --rz-ease:cubic-bezier(.22,1,.36,1);
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --rz-paper:#161412;--rz-card:#1d1a17;--rz-card2:#262117;--rz-raise:#2a2521;
+  --rz-ink:#ece6da;--rz-ink2:#b6ac9c;--rz-ink3:#928878;
+  --rz-line:#332d26;--rz-line2:#4d4439;
+  --rz-copper:#d9895a;--rz-copper2:#c7703f;--rz-copper-soft:#3a2a1f;--rz-oncopper:#1b1310;
+  --rz-good:#6fbfa5;--rz-good-soft:#1d332c;--rz-bad:#e3796c;--rz-bad-soft:#3a201c;
+  --rz-warn:#d6a542;--rz-warn-soft:#352c17;--rz-sel:#3a2a1f;--rz-track:#3a332b;
+  --rz-c1:#c98500;--rz-c2:#3987e5;--rz-c3:#199e70;--rz-c4:#d95926;--rz-c5:#9085e9;
+  color-scheme:dark;
+}}
+:root[data-theme="dark"]{
+  --rz-paper:#161412;--rz-card:#1d1a17;--rz-card2:#262117;--rz-raise:#2a2521;
+  --rz-ink:#ece6da;--rz-ink2:#b6ac9c;--rz-ink3:#928878;
+  --rz-line:#332d26;--rz-line2:#4d4439;
+  --rz-copper:#d9895a;--rz-copper2:#c7703f;--rz-copper-soft:#3a2a1f;--rz-oncopper:#1b1310;
+  --rz-good:#6fbfa5;--rz-good-soft:#1d332c;--rz-bad:#e3796c;--rz-bad-soft:#3a201c;
+  --rz-warn:#d6a542;--rz-warn-soft:#352c17;--rz-sel:#3a2a1f;--rz-track:#3a332b;
+  --rz-c1:#c98500;--rz-c2:#3987e5;--rz-c3:#199e70;--rz-c4:#d95926;--rz-c5:#9085e9;
+  color-scheme:dark;
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--rz-paper);color:var(--rz-ink);font-family:var(--rz-sans);
+  font-size:1.0625rem;line-height:1.62;font-feature-settings:"ss01","cv05";-webkit-font-smoothing:antialiased}
+::selection{background:var(--rz-sel)}
+img,svg{max-width:100%}
+a{color:var(--rz-copper);text-underline-offset:2px}
+h1,h2,h3{font-family:var(--rz-serif);font-weight:700;line-height:1.16;letter-spacing:-.01em;color:var(--rz-ink)}
+.rz-skip{position:absolute;left:-999px;top:0}
+.rz-skip:focus{left:8px;top:8px;z-index:30;background:var(--rz-card);padding:8px 12px;border:1px solid var(--rz-line2);border-radius:var(--rz-r2)}
+
+/* header */
+.rz-top{position:sticky;top:0;z-index:20;background:color-mix(in srgb,var(--rz-paper) 88%,transparent);
+  border-bottom:1px solid var(--rz-line);backdrop-filter:none}
+.rz-top.rz-stuck{box-shadow:var(--rz-sh1)}
+.rz-topin{max-width:var(--rz-wide);margin:0 auto;padding:9px var(--rz-pad);display:flex;align-items:center;gap:14px}
+.rz-mark{display:flex;align-items:center;gap:9px;font-family:var(--rz-serif);font-weight:700;font-size:1.02rem;flex:none}
+.rz-mark svg{width:26px;height:26px}
+.rz-rail{display:flex;gap:4px;overflow-x:auto;scrollbar-width:none;margin-left:auto;-webkit-mask:linear-gradient(90deg,transparent,#000 14px,#000 calc(100% - 14px),transparent)}
+.rz-rail::-webkit-scrollbar{display:none}
+.rz-rail a{flex:none;font-size:.9rem;color:var(--rz-ink2);text-decoration:none;padding:6px 9px;border-radius:var(--rz-r2);white-space:nowrap}
+.rz-rail a:hover{background:var(--rz-card2);color:var(--rz-ink)}
+.rz-rail a[aria-current="true"]{color:var(--rz-copper);background:var(--rz-copper-soft)}
+.rz-tgl{flex:none;font:inherit;font-size:.85rem;color:var(--rz-ink2);background:var(--rz-card);border:1px solid var(--rz-line2);
+  border-radius:var(--rz-r2);padding:6px 10px;cursor:pointer}
+.rz-tgl:hover{border-color:var(--rz-copper2);color:var(--rz-ink)}
+
+main{display:block}
+.rz-text{max-width:var(--rz-text);margin:0 auto;padding:0 var(--rz-pad)}
+.rz-wide{max-width:var(--rz-wide);margin:0 auto;padding:0 var(--rz-pad)}
+.rz-sec{padding-top:var(--rz-gap)}
+.rz-sec>.rz-text>h2,.rz-sec>.rz-wide>h2{font-size:clamp(1.5rem,1.24rem + 1.1vw,1.9rem);margin:0 0 .5em}
+
+/* hero */
+.rz-hero{max-width:var(--rz-hero);margin:0 auto;padding:clamp(26px,5vw,52px) var(--rz-pad) 0}
+.rz-when{font-size:.84rem;color:var(--rz-ink3);letter-spacing:.01em;margin:0 0 14px}
+.rz-hero h1{font-size:clamp(2.05rem,1.4rem + 2.8vw,3.1rem);margin:0 0 .42em;max-width:16ch}
+.rz-lead{font-size:clamp(1.07rem,1rem + .45vw,1.22rem);color:var(--rz-ink2);margin:0 0 1.3em;max-width:62ch}
+.rz-lead b{color:var(--rz-ink);font-weight:600}
+
+/* intro / example card */
+.rz-ex{background:var(--rz-card);border:1px solid var(--rz-line);border-radius:var(--rz-r4);
+  box-shadow:var(--rz-sh2);padding:clamp(18px,3vw,26px);margin:8px 0 6px}
+.rz-ex h2{font-size:1.18rem;margin:0 0 .35em}
+.rz-ex p{margin:.2em 0 1em;color:var(--rz-ink2);font-size:.98rem}
+.rz-exrow{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px}
+.rz-exc{border:1px solid var(--rz-line);border-radius:var(--rz-r3);padding:13px 14px;background:var(--rz-paper)}
+.rz-exc .rz-nm{display:flex;align-items:center;gap:8px;font-family:var(--rz-serif);font-weight:700;font-size:1.02rem}
+.rz-exc .rz-nm svg{width:22px;height:22px;flex:none}
+.rz-tag{font-size:.72rem;color:var(--rz-ink3);border:1px solid var(--rz-line2);border-radius:999px;padding:1px 8px;white-space:nowrap}
+.rz-exc dl{display:grid;grid-template-columns:auto 1fr;gap:3px 12px;margin:9px 0 0;font-size:.88rem}
+.rz-exc dt{color:var(--rz-ink3)}
+.rz-exc dd{margin:0;text-align:right;font-variant-numeric:tabular-nums}
+
+/* map of points */
+.rz-map{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:10px;margin-top:20px;padding:0;list-style:none}
+.rz-map li{margin:0}
+.rz-map a{display:flex;gap:11px;align-items:baseline;text-decoration:none;color:var(--rz-ink);
+  border:1px solid var(--rz-line);border-radius:var(--rz-r2);padding:11px 13px;background:var(--rz-card);height:100%}
+.rz-map a:hover{border-color:var(--rz-copper2);box-shadow:var(--rz-sh1)}
+.rz-map .rz-k{font-family:var(--rz-serif);font-weight:700;color:var(--rz-copper);font-size:.95rem;flex:none}
+.rz-map .rz-d{font-size:.9rem;color:var(--rz-ink2);line-height:1.4}
+.rz-map .rz-d b{color:var(--rz-ink);font-weight:600;display:block;font-family:var(--rz-sans);font-size:.95rem}
+
+/* prose */
+.rz-body p{margin:0 0 1.05em}
+.rz-body h3{font-size:1.19rem;margin:1.6em 0 .4em}
+.rz-first{color:var(--rz-ink)}
+.rz-first b{color:var(--rz-copper);font-weight:700}
+.rz-def{color:var(--rz-ink2)}
+.rz-mk{background:var(--rz-warn-soft);box-shadow:0 0 0 2px var(--rz-warn-soft);border-radius:2px}
+
+/* figure */
+.rz-fig{margin:1.6em 0 1.7em;border:1px solid var(--rz-line);border-radius:var(--rz-r4);overflow:hidden;background:var(--rz-card)}
+.rz-fig svg{display:block;width:100%;height:auto}
+.rz-fh{padding:14px clamp(14px,3vw,20px) 4px}
+.rz-fh h3{margin:0;font-size:1.06rem}
+.rz-svgwrap{padding:4px clamp(14px,3vw,20px) 0}
+.rz-cap{font-size:.82rem;color:var(--rz-ink3);padding:9px clamp(14px,3vw,20px) 14px;border-bottom:1px solid var(--rz-line)}
+.rz-tab{overflow-x:auto}
+table{border-collapse:collapse;width:100%;font-size:.9rem}
+.rz-tab table{min-width:440px}
+th,td{text-align:left;padding:8px clamp(10px,2vw,16px);border-bottom:1px solid var(--rz-line)}
+th{font-family:var(--rz-sans);font-weight:600;color:var(--rz-ink2);font-size:.82rem;background:var(--rz-card2)}
+td{font-variant-numeric:tabular-nums}
+tbody tr:last-child td{border-bottom:none}
+.rz-num{text-align:right}
+.rz-pill{display:inline-flex;align-items:center;gap:5px;font-size:.78rem;padding:1px 8px;border-radius:999px;font-weight:600}
+.rz-pill.g{background:var(--rz-good-soft);color:var(--rz-good)}
+.rz-pill.b{background:var(--rz-bad-soft);color:var(--rz-bad)}
+.rz-pill.w{background:var(--rz-warn-soft);color:var(--rz-warn)}
+
+/* standalone table */
+.rz-sheet{margin:1.4em 0;border:1px solid var(--rz-line);border-radius:var(--rz-r3);overflow:hidden}
+.rz-sheet caption{text-align:left;font-size:.82rem;color:var(--rz-ink3);padding:11px clamp(12px,2vw,16px)}
+
+/* details */
+.rz-qa{border:1px solid var(--rz-line);border-radius:var(--rz-r3);margin:10px 0;background:var(--rz-card);overflow:hidden}
+.rz-qa summary{cursor:pointer;padding:14px 16px;font-family:var(--rz-serif);font-weight:600;font-size:1.03rem;list-style:none;
+  display:flex;justify-content:space-between;gap:12px;align-items:baseline}
+.rz-qa summary::-webkit-details-marker{display:none}
+.rz-qa summary::after{content:"+";color:var(--rz-copper);font-size:1.3rem;line-height:1;flex:none;transition:transform var(--rz-ease) .2s}
+.rz-qa[open] summary::after{transform:rotate(45deg)}
+.rz-ab{padding:0 16px 15px;color:var(--rz-ink2)}
+.rz-ab p{margin:0}
+
+/* care / channel / footer */
+.rz-note{border:1px solid var(--rz-line2);border-radius:var(--rz-r3);background:var(--rz-card2);padding:16px 18px;color:var(--rz-ink2);font-size:.95rem}
+.rz-note b{color:var(--rz-ink)}
+.rz-ch{background:var(--rz-card);border:1px solid var(--rz-line);border-radius:var(--rz-r4);padding:clamp(18px,3vw,26px);box-shadow:var(--rz-sh1)}
+.rz-ch h2{margin-top:0}
+.rz-cta{display:inline-flex;align-items:center;gap:9px;margin-top:6px;text-decoration:none;font-weight:600;color:var(--rz-oncopper);
+  background:var(--rz-copper2);padding:11px 18px;border-radius:var(--rz-r2)}
+.rz-cta:hover{background:var(--rz-copper)}
+.rz-cta svg{width:19px;height:19px}
+.rz-foot{margin-top:var(--rz-gap);border-top:1px solid var(--rz-line);background:var(--rz-card)}
+.rz-footin{max-width:var(--rz-wide);margin:0 auto;padding:30px var(--rz-pad);display:grid;grid-template-columns:1.4fr 1fr 1fr;gap:26px;font-size:.9rem;color:var(--rz-ink2)}
+.rz-foot h4{font-family:var(--rz-sans);font-size:.78rem;letter-spacing:.04em;text-transform:uppercase;color:var(--rz-ink3);margin:0 0 9px;font-weight:600}
+.rz-foot a{color:var(--rz-ink2)}
+.rz-foot p{margin:.3em 0}
+.rz-fnote{max-width:var(--rz-wide);margin:0 auto;padding:0 var(--rz-pad) 30px;font-size:.8rem;color:var(--rz-ink3)}
+@media (max-width:720px){.rz-footin{grid-template-columns:1fr 1fr}}
+@media (max-width:480px){.rz-footin{grid-template-columns:1fr}}
+@media (prefers-reduced-motion:reduce){*{transition-duration:1ms!important;animation-duration:1ms!important}}
+</style>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Article","@id":"https://sloty-dlya-novichkov210.github.io/#page","headline":"Слоты для новичков: разбор условий и правил автоматов по пунктам в 2026 году","description":"Разбор слотов для новичков на 2026 год по пунктам: как читать RTP и его версии, волатильность и дисперсия, линии и Ways, scatter и wild, бай-бонус, вейджер и max bet при отыгрыше, демо-режим.","inLanguage":"ru","datePublished":"2026-10-01","dateModified":"2026-10-01","author":{"@type":"Organization","name":"Редакция «Слот по пунктам»"},"publisher":{"@type":"Organization","name":"Слот по пунктам"},"mainEntityOfPage":"https://sloty-dlya-novichkov210.github.io/"}
+</script>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"FAQPage","@id":"https://sloty-dlya-novichkov210.github.io/#faq","mainEntity":[
+{"@type":"Question","name":"Что такое RTP у слота и почему у одной игры бывает несколько значений","acceptedAnswer":{"@type":"Answer","text":"RTP — это теоретический процент возврата на длинной дистанции в миллионы спинов, а не обещание выплаты за сессию. У одной игры провайдер нередко выпускает несколько сертифицированных версий RTP, например 96,2 %, 94,0 % и 92,1 %, и оператор выбирает, какую запустить. Фактическую версию видно в информационном окне игры — ищите строку RTP в разделе с правилами и таблицей выплат до первого спина."}},
+{"@type":"Question","name":"Чем волатильность отличается от дисперсии простыми словами","acceptedAnswer":{"@type":"Answer","text":"Волатильность описывает характер игры: низкая даёт частые мелкие выплаты, высокая — редкие, но крупные. Дисперсия — это числовая мера разброса результата вокруг среднего, выраженная через стандартное отклонение. Высокая волатильность означает большую дисперсию, поэтому на короткой сессии итог сильно отклоняется от RTP в обе стороны, и банк на высоковолатильной игре расходуется быстрее."}},
+{"@type":"Question","name":"Как из линий и Ways складывается ставка за спин","acceptedAnswer":{"@type":"Answer","text":"В игре с линиями ставка за спин равна ставке на линию, умноженной на число активных линий: 1 ₽ на линию при 20 линиях — это 20 ₽ за спин. В играх типа 243 Ways или Megaways линий нет, и ставка делится на фиксированное число (чаще 10, 20 или 25), поэтому минимальная ставка за спин задаётся сразу целиком. Итоговую сумму всегда показывает поле общей ставки под барабанами."}},
+{"@type":"Question","name":"Что такое бай-бонус и почему его стоит понимать новичку","acceptedAnswer":{"@type":"Answer","text":"Бай-бонус (feature buy) — это покупка входа в бонусную игру за фиксированную цену, обычно от 50 до 100 ставок. У версии с покупкой часто своя конфигурация RTP, нередко выше базовой, но цена входа превышает средний результат бонуса, поэтому риск на одну покупку высокий. При игре с бонусных средств покупку функции почти всегда отключают, а её использование в ряде правил аннулирует отыгрыш."}},
+{"@type":"Question","name":"Как считается вейджер бонуса на слотах","acceptedAnswer":{"@type":"Answer","text":"Вейджер — это множитель, на который нужно прокрутить сумму бонуса перед выводом, например x35. Вклад игр в отыгрыш разный: автоматы обычно засчитываются на 100 %, настольные игры и рулетка — на 10 % или 0 %. Это и значит «вейджер на слотах»: прокрутить бонус быстрее всего именно на автоматах, но внутри них бывают исключённые игры, список которых указан в правилах бонуса."}},
+{"@type":"Question","name":"Почему максимальная ставка при отыгрыше аннулирует выигрыш","acceptedAnswer":{"@type":"Answer","text":"При активном бонусе действует лимит ставки за спин, часто 300 ₽ или эквивалент около 5 €. Он не даёт отыграть бонус одной крупной ставкой и защищает оператора. Если хотя бы один спин превысит лимит, правила позволяют аннулировать бонус и выигрыш с него, даже если это вышло случайно. Поэтому до отыгрыша нужно вручную выставить ставку ниже лимита и держать её весь период."}},
+{"@type":"Question","name":"Зачем новичку демо-режим и отличается ли его RTP от игры на деньги","acceptedAnswer":{"@type":"Answer","text":"Демо-режим запускает ту же игру на условные фишки без депозита и регистрации — он нужен, чтобы изучить таблицу выплат, частоту бонуса и поведение волатильности без расходов. Сертифицированный генератор случайных чисел в демо тот же, но оператор может запустить другую версию RTP, чем на деньги. Отдельно стоит различать социальные казино: показанная там «отдача» не отражает реальный RTP и для оценки игры не годится."}}
+]}
+</script>
+</head>
+<body>
+<a class="rz-skip" href="#rtp">К разбору</a>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+<symbol id="rz-m-cu" viewBox="0 0 40 40"><rect width="40" height="40" rx="9" fill="var(--rz-copper-soft)"/><text x="20" y="27" text-anchor="middle" font-family="Literata,serif" font-weight="700" font-size="20" fill="var(--rz-copper)">М</text></symbol>
+<symbol id="rz-m-ha" viewBox="0 0 40 40"><rect width="40" height="40" rx="9" fill="var(--rz-good-soft)"/><text x="20" y="27" text-anchor="middle" font-family="Literata,serif" font-weight="700" font-size="20" fill="var(--rz-good)">Т</text></symbol>
+<symbol id="rz-m-tr" viewBox="0 0 40 40"><rect width="40" height="40" rx="9" fill="var(--rz-warn-soft)"/><text x="20" y="27" text-anchor="middle" font-family="Literata,serif" font-weight="700" font-size="20" fill="var(--rz-warn)">П</text></symbol>
+</svg>
+
+<header class="rz-top" id="rz-top">
+  <div class="rz-topin">
+    <span class="rz-mark">
+      <svg viewBox="0 0 40 40" aria-hidden="true"><rect width="40" height="40" rx="9" fill="var(--rz-copper-soft)"/><rect x="7" y="9" width="26" height="22" rx="4" fill="none" stroke="var(--rz-copper)" stroke-width="2"/><line x1="15.7" y1="9" x2="15.7" y2="31" stroke="var(--rz-copper)" stroke-width="1.5"/><line x1="24.3" y1="9" x2="24.3" y2="31" stroke="var(--rz-copper)" stroke-width="1.5"/></svg>
+      Слот по пунктам
+    </span>
+    <nav class="rz-rail" aria-label="Разделы разбора">
+      <a href="#rtp">RTP и версии</a>
+      <a href="#vol">Волатильность</a>
+      <a href="#linii">Линии и Ways</a>
+      <a href="#simvoly">Scatter и wild</a>
+      <a href="#baybonus">Бай-бонус</a>
+      <a href="#veydzher">Вейджер</a>
+      <a href="#maxbet">Max bet</a>
+      <a href="#demo">Демо</a>
+      <a href="#voprosy">Вопросы</a>
+    </nav>
+    <button class="rz-tgl" id="rz-tgl" type="button" aria-label="Переключить тему">Тема</button>
+  </div>
+</header>
+
+<main>
+  <div class="rz-hero">
+    <p class="rz-when">Обновлено 1 октября 2026 · Москва · разбор механики, не реклама</p>
+    <h1>Слоты для новичков: разбор условий и правил автоматов по пунктам в 2026 году</h1>
+    <p class="rz-lead">Этот разбор объясняет, что новичку надо понять про игровые автоматы до первого спина: <b>как читается RTP и почему у игры несколько его версий</b>, что такое волатильность и дисперсия, из чего складывается ставка за спин, какие символы запускают бонус, сколько стоит покупка функции и как устроены вейджер, лимит ставки при отыгрыше и демо-режим. Каждый пункт — отдельно и простым языком, с таблицей и схемой на тех же числах.</p>
+
+    <section class="rz-ex" aria-labelledby="rz-exh">
+      <h2 id="rz-exh">Три расчётных автомата для разбора</h2>
+      <p>Чтобы показать, как читаются параметры, в тексте используются три условных автомата. Это <strong>расчётные примеры</strong>: названия и цифры придуманы для разбора механики, не рейтинг и не реклама конкретной игры.</p>
+      <div class="rz-exrow">
+        <div class="rz-exc">
+          <div class="rz-nm"><svg aria-hidden="true"><use href="#rz-m-cu"/></svg> Медный Рудник <span class="rz-tag">пример</span></div>
+          <dl><dt>Барабаны</dt><dd>5×3, 20 линий</dd><dt>Волатильность</dt><dd>высокая</dd><dt>RTP (версии)</dt><dd>96,2 / 94,0 / 92,1 %</dd><dt>Макс. выигрыш</dt><dd>5000×</dd></dl>
+        </div>
+        <div class="rz-exc">
+          <div class="rz-nm"><svg aria-hidden="true"><use href="#rz-m-ha"/></svg> Тихая Гавань <span class="rz-tag">пример</span></div>
+          <dl><dt>Барабаны</dt><dd>5×3, 10 линий</dd><dt>Волатильность</dt><dd>низкая</dd><dt>RTP (версии)</dt><dd>96,8 / 95,5 %</dd><dt>Макс. выигрыш</dt><dd>750×</dd></dl>
+        </div>
+        <div class="rz-exc">
+          <div class="rz-nm"><svg aria-hidden="true"><use href="#rz-m-tr"/></svg> Пыльная Тропа <span class="rz-tag">пример</span></div>
+          <dl><dt>Механика</dt><dd>243 Ways</dd><dt>Волатильность</dt><dd>средняя</dd><dt>RTP (версии)</dt><dd>95,4 / 94,2 %</dd><dt>Макс. выигрыш</dt><dd>2100×</dd></dl>
+        </div>
+      </div>
+      <ul class="rz-map">
+        <li><a href="#rtp"><span class="rz-k">01</span><span class="rz-d"><b>RTP и его версии</b>как читать процент возврата</span></a></li>
+        <li><a href="#vol"><span class="rz-k">02</span><span class="rz-d"><b>Волатильность и дисперсия</b>разброс и расход банка</span></a></li>
+        <li><a href="#linii"><span class="rz-k">03</span><span class="rz-d"><b>Линии, Ways, Megaways</b>ставка за спин</span></a></li>
+        <li><a href="#simvoly"><span class="rz-k">04</span><span class="rz-d"><b>Scatter, wild, фриспины</b>бонусные символы</span></a></li>
+        <li><a href="#baybonus"><span class="rz-k">05</span><span class="rz-d"><b>Бай-бонус</b>покупка функции и её цена</span></a></li>
+        <li><a href="#veydzher"><span class="rz-k">06</span><span class="rz-d"><b>Вейджер на автоматах</b>вклад игр в отыгрыш</span></a></li>
+        <li><a href="#maxbet"><span class="rz-k">07</span><span class="rz-d"><b>Max bet при отыгрыше</b>лимит, который всё аннулирует</span></a></li>
+        <li><a href="#demo"><span class="rz-k">08</span><span class="rz-d"><b>Демо-режим</b>что показывает бесплатная игра</span></a></li>
+      </ul>
+    </section>
+  </div>
+
+  <section class="rz-sec" id="rtp">
+    <div class="rz-text">
+      <h2>Процент возврата: как читается RTP и почему у одного автомата несколько версий</h2>
+      <div class="rz-body">
+      <p class="rz-first">Сразу главное: <b>RTP — это теоретический возврат на дистанции в миллионы спинов, а не доля денег, которую игра вернёт за вечер.</b> Запись «RTP 96 %» означает, что из каждых условных 100 ₽ ставок автомат в среднем по огромной выборке возвращает 96 ₽, а 4 ₽ остаются как преимущество оператора (house edge). На сотне вращений фактический результат отклонится от этой цифры в любую сторону — это нормальная работа генератора случайных чисел (RNG), а не поломка и не «горячая» полоса.</p>
+      <p class="rz-def">Ключевое, что упускают новички: у одной и той же игры провайдер часто выпускает <strong>несколько сертифицированных версий RTP</strong>. Для «Медного Рудника» это 96,2 %, 94,0 % и 92,1 %. Оператор выбирает, какую конфигурацию запустить у себя, и на двух площадках визуально одинаковый автомат может отдавать по-разному. Разницу в <span class="rz-mk">2–4 пункта возврата</span> невозможно заметить на глаз или «по ощущению» — её видно только в описании.</p>
+
+      <figure class="rz-fig" aria-labelledby="rz-f1h">
+        <div class="rz-fh"><h3 id="rz-f1h">Версии RTP «Медного Рудника» на обрезанной шкале 90–100 %</h3></div>
+        <div class="rz-svgwrap">
+        <svg viewBox="0 0 700 230" role="img" aria-labelledby="rz-f1t rz-f1d">
+          <title id="rz-f1t">Сравнение версий RTP одного автомата</title>
+          <desc id="rz-f1d">Четыре сертифицированные конфигурации возврата отличаются на несколько пунктов.</desc>
+          <g font-family="Golos Text,sans-serif" font-size="13">
+            <line x1="150" y1="20" x2="150" y2="200" stroke="var(--rz-line)"/>
+            <line x1="686" y1="20" x2="686" y2="200" stroke="var(--rz-line)"/>
+            <text x="150" y="218" fill="var(--rz-ink3)">90 %</text>
+            <text x="418" y="218" fill="var(--rz-ink3)" text-anchor="middle">95 %</text>
+            <text x="686" y="218" fill="var(--rz-ink3)" text-anchor="end">100 %</text>
+            <!-- bars: x from 150, width = (val-90)*10 * 5.36 px per pt ; usable 536px for 10pt -->
+            <g>
+              <rect x="150" y="30" width="332" height="30" rx="4" fill="var(--rz-c3)"/>
+              <text x="140" y="50" text-anchor="end" fill="var(--rz-ink2)">Покупка бонуса</text>
+              <text x="492" y="50" fill="var(--rz-ink)">96,5 %</text>
+            </g>
+            <g>
+              <rect x="150" y="72" width="316" height="30" rx="4" fill="var(--rz-copper2)"/>
+              <text x="140" y="92" text-anchor="end" fill="var(--rz-ink2)">Версия A</text>
+              <text x="476" y="92" fill="var(--rz-ink)">96,2 %</text>
+            </g>
+            <g>
+              <rect x="150" y="114" width="214" height="30" rx="4" fill="var(--rz-warn)"/>
+              <text x="140" y="134" text-anchor="end" fill="var(--rz-ink2)">Версия B</text>
+              <text x="374" y="134" fill="var(--rz-ink)">94,0 %</text>
+            </g>
+            <g>
+              <rect x="150" y="156" width="112" height="30" rx="4" fill="var(--rz-bad)"/>
+              <text x="140" y="176" text-anchor="end" fill="var(--rz-ink2)">Версия C</text>
+              <text x="272" y="176" fill="var(--rz-ink)">92,1 %</text>
+            </g>
+          </g>
+        </svg>
+        </div>
+        <div class="rz-cap">Шкала обрезана до 90–100 %, чтобы разница читалась; ширина столбца = (RTP − 90) × 10. Цифры условные, для разбора.</div>
+        <div class="rz-tab"><table>
+          <thead><tr><th>Конфигурация</th><th class="rz-num">RTP</th><th>Где встречается</th><th>Что значит для новичка</th></tr></thead>
+          <tbody>
+            <tr><td>Покупка бонуса</td><td class="rz-num">96,5 %</td><td>режим feature buy</td><td>выше базовой, но дорогой вход</td></tr>
+            <tr><td>Версия A</td><td class="rz-num">96,2 %</td><td>«щедрая» настройка</td><td><span class="rz-pill g">предпочтительно</span></td></tr>
+            <tr><td>Версия B</td><td class="rz-num">94,0 %</td><td>стандартная настройка</td><td><span class="rz-pill w">терпимо</span></td></tr>
+            <tr><td>Версия C</td><td class="rz-num">92,1 %</td><td>«урезанная» настройка</td><td><span class="rz-pill b">избегать</span></td></tr>
+          </tbody>
+        </table></div>
+      </figure>
+
+      <p>Чтобы прочитать реальную версию, откройте в игре значок «i» или пункт «Правила» — там есть строка RTP и таблица выплат (paytable). Если провайдер указывает диапазон вида «94,0–96,2 %», это прямой признак, что у игры несколько конфигураций, и запущенную решает площадка. Независимую проверку самого генератора и заявленного возврата проводят лаборатории: <strong>iTech Labs</strong>, <strong>GLI</strong>, <strong>eCOGRA</strong> — их сертификат относится к механике игры, а не к честности конкретного оператора.</p>
+      <p>Отдельно различают теоретический и наблюдаемый RTP. Теоретический заложен в математику игры, наблюдаемый — это то, что получилось на реальной выборке спинов; сходятся они только на очень больших числах. Поэтому «за сегодня автомат отдал 70 %» — это не версия RTP, а короткая выборка внутри дисперсии. Ещё один параметр рядом с возвратом — <strong>hit frequency</strong>, частота выигрышных вращений: при одном и том же RTP тайтл с частыми мелкими выплатами ощущается иначе, чем тайтл с редкими крупными. Это уже вопрос волатильности — следующий пункт.</p>
+      <details class="rz-qa"><summary>Выгоднее ли искать автомат с RTP 97–98 %</summary><div class="rz-ab"><p>Более высокий возврат снижает преимущество оператора, но на короткой дистанции его легко перекрывает дисперсия: разница между 96 % и 97 % — это один пункт на миллион спинов, а за вечер результат определяет волатильность и размер ставки. Высокий RTP полезен как фон, выбирать игру только по нему смысла мало.</p></div></details>
+      </div>
+    </div>
+  </section>
+
+  <section class="rz-sec" id="vol">
+    <div class="rz-text">
+      <h2>Волатильность и дисперсия: как разброс выплат бережёт или съедает банк</h2>
+      <div class="rz-body">
+      <p class="rz-first">Коротко: <b>волатильность отвечает за характер выплат, дисперсия — за их числовой разброс, и вместе они решают, как быстро уходит депозит.</b> Низкая волатильность — частые мелкие выигрыши, ровная линия баланса, редкие крупные события. Высокая волатильность — длинные пустые серии и редкие большие заносы. RTP у двух таких игр может совпадать, а ощущения и расход банка — противоположными.</p>
+      <p class="rz-def">Дисперсия — это мера разброса результата вокруг среднего, которую статистика выражает через стандартное отклонение. Чем она выше, тем сильнее отдельная сессия отклоняется от RTP. Поэтому на «Медном Руднике» (высокая волатильность, макс. выигрыш 5000×) депозит в серии из 100 вращений чаще обнуляется до редкого крупного попадания, а на «Тихой Гавани» (низкая, 750×) баланс колеблется мягко. Практический вывод для новичка — <span class="rz-mk">подбирать размер ставки под волатильность</span>: на высоковолатильной игре ставка должна быть меньшей долей банка, иначе он не доживёт до бонуса.</p>
+
+      <figure class="rz-fig" aria-labelledby="rz-f2h">
+        <div class="rz-fh"><h3 id="rz-f2h">Разброс результата за сессию 100 спинов: доля от суммы ставок</h3></div>
+        <div class="rz-svgwrap">
+        <svg viewBox="0 0 700 220" role="img" aria-labelledby="rz-f2t rz-f2d">
+          <title id="rz-f2t">Диапазон типичного результата при разной волатильности</title>
+          <desc id="rz-f2d">Чем выше волатильность, тем шире полоса возможного итога сессии.</desc>
+          <g font-family="Golos Text,sans-serif" font-size="13">
+            <!-- scale 0..500% over x 150..686 (536px) -> px per % = 1.072 -->
+            <line x1="150" y1="20" x2="150" y2="170" stroke="var(--rz-line2)"/>
+            <line x1="257" y1="20" x2="257" y2="175" stroke="var(--rz-line)" stroke-dasharray="3 3"/>
+            <text x="257" y="192" fill="var(--rz-ink3)" text-anchor="middle">100 % (возврат ставок)</text>
+            <text x="150" y="208" fill="var(--rz-ink3)">0 %</text>
+            <text x="686" y="208" fill="var(--rz-ink3)" text-anchor="end">500 %+</text>
+            <g>
+              <text x="140" y="48" text-anchor="end" fill="var(--rz-ink2)">Тихая Гавань</text>
+              <rect x="214" y="34" width="86" height="22" rx="4" fill="var(--rz-good)" opacity="0.85"/>
+              <text x="306" y="50" fill="var(--rz-ink)" font-size="12">60–140 %</text>
+            </g>
+            <g>
+              <text x="140" y="94" text-anchor="end" fill="var(--rz-ink2)">Пыльная Тропа</text>
+              <rect x="171" y="80" width="257" height="22" rx="4" fill="var(--rz-warn)" opacity="0.85"/>
+              <text x="434" y="96" fill="var(--rz-ink)" font-size="12">20–260 %</text>
+            </g>
+            <g>
+              <text x="140" y="140" text-anchor="end" fill="var(--rz-ink2)">Медный Рудник</text>
+              <rect x="150" y="126" width="536" height="22" rx="4" fill="var(--rz-copper2)" opacity="0.85"/>
+              <text x="560" y="140" fill="var(--rz-oncopper)" font-size="12">0–500 %+</text>
+            </g>
+          </g>
+        </svg>
+        </div>
+        <div class="rz-cap">Модельная оценка типичного итога сессии как доли от суммы ставок; полоса шире — разброс больше. Пунктир — точка полного возврата ставок.</div>
+        <div class="rz-tab"><table>
+          <thead><tr><th>Автомат</th><th>Волатильность</th><th>Разброс за 100 спинов</th><th class="rz-num">Макс. выигрыш</th></tr></thead>
+          <tbody>
+            <tr><td>Тихая Гавань</td><td><span class="rz-pill g">низкая</span></td><td>60–140 %</td><td class="rz-num">750×</td></tr>
+            <tr><td>Пыльная Тропа</td><td><span class="rz-pill w">средняя</span></td><td>20–260 %</td><td class="rz-num">2100×</td></tr>
+            <tr><td>Медный Рудник</td><td><span class="rz-pill b">высокая</span></td><td>0–500 %+</td><td class="rz-num">5000×</td></tr>
+          </tbody>
+        </table></div>
+      </figure>
+
+      <p>Производители обычно подписывают волатильность в описании словами или шкалой из делений, а косвенный признак — максимальный множитель: потолок 5000× почти всегда означает высокую волатильность и длинные просадки, потолок 500–800× — спокойную игру. Для первых сессий новичку проще разбираться на низкой или средней волатильности: баланс меняется предсказуемо, видно, как работают линии и бонус, и депозит не исчезает за десяток вращений. Высоковолатильные тайтлы имеет смысл открывать осознанно и маленькой ставкой — как лотерею на крупное событие, а не как способ «отыграться».</p>
+      <details class="rz-qa"><summary>Можно ли по волатильности предсказать следующий спин</summary><div class="rz-ab"><p>Нет. Волатильность описывает распределение результатов на дистанции, но каждый спин независим: генератор случайных чисел не помнит прошлых исходов, «дозревших» и «пустых» автоматов не бывает. Волатильность помогает выбрать размер ставки и ожидания, а не угадать момент выплаты.</p></div></details>
+      </div>
+    </div>
+  </section>
+
+  <section class="rz-sec" id="linii">
+    <div class="rz-text">
+      <h2>Линии, Ways и Megaways: из чего складывается ставка за спин</h2>
+      <div class="rz-body">
+      <p class="rz-first">Первое, что путает новичка в кассе игры: <b>ставка за спин — это не ставка «на линию», а их произведение.</b> В классике с линиями выплат (paylines) выигрыш засчитывается, когда одинаковые символы выстраиваются по заранее нарисованному пути слева направо. Общая ставка равна ставке на одну линию, умноженной на число активных линий. Если поставить 1 ₽ на линию при 20 линиях, с баланса за спин спишется 20 ₽, а не 1 ₽.</p>
+      <p class="rz-def">В автоматах без линий работает механика <strong>243 Ways</strong> (или 1024, 4096 Ways): выигрыш идёт за совпадение символов на соседних барабанах в любой позиции, а ставка делится на фиксированное число — чаще 10, 20 или 25 «кредитов». У <strong>Megaways</strong> число рядов на барабанах меняется каждый спин, и комбинаций бывает до <span class="rz-mk">117 649</span>. Ещё один вариант — <strong>cluster pays</strong>, где платят группы соседних символов, а не ряды. Общее правило одно: минимальную и текущую сумму показывает поле общей ставки (total bet) под барабанами — на него и нужно смотреть, а не на цену линии.</p>
+
+      <figure class="rz-fig" aria-labelledby="rz-f3h">
+        <div class="rz-fh"><h3 id="rz-f3h">Как считается ставка за спин у трёх механик</h3></div>
+        <div class="rz-svgwrap">
+        <svg viewBox="0 0 700 210" role="img" aria-labelledby="rz-f3t rz-f3d">
+          <title id="rz-f3t">Формула ставки за спин для линий, Ways и Megaways</title>
+          <desc id="rz-f3d">Схема показывает, из чего складывается итоговая сумма списания за один спин.</desc>
+          <g font-family="Golos Text,sans-serif" font-size="13">
+            <g>
+              <rect x="20" y="24" width="170" height="46" rx="8" fill="var(--rz-card2)" stroke="var(--rz-line2)"/>
+              <text x="105" y="44" text-anchor="middle" fill="var(--rz-ink)" font-size="12">ставка на линию</text>
+              <text x="105" y="62" text-anchor="middle" fill="var(--rz-copper)" font-weight="700">1 ₽</text>
+              <text x="205" y="52" text-anchor="middle" fill="var(--rz-ink2)" font-size="18">×</text>
+              <rect x="220" y="24" width="150" height="46" rx="8" fill="var(--rz-card2)" stroke="var(--rz-line2)"/>
+              <text x="295" y="44" text-anchor="middle" fill="var(--rz-ink)" font-size="12">20 линий</text>
+              <text x="295" y="62" text-anchor="middle" fill="var(--rz-copper)" font-weight="700">×20</text>
+              <text x="385" y="52" text-anchor="middle" fill="var(--rz-ink2)" font-size="18">=</text>
+              <rect x="400" y="24" width="180" height="46" rx="8" fill="var(--rz-copper-soft)" stroke="var(--rz-copper2)"/>
+              <text x="490" y="44" text-anchor="middle" fill="var(--rz-ink)" font-size="12">ставка за спин</text>
+              <text x="490" y="62" text-anchor="middle" fill="var(--rz-copper)" font-weight="700">20 ₽</text>
+              <text x="610" y="50" fill="var(--rz-ink3)" font-size="12">Линии</text>
+            </g>
+            <g>
+              <rect x="20" y="86" width="170" height="46" rx="8" fill="var(--rz-card2)" stroke="var(--rz-line2)"/>
+              <text x="105" y="106" text-anchor="middle" fill="var(--rz-ink)" font-size="12">уровень ставки</text>
+              <text x="105" y="124" text-anchor="middle" fill="var(--rz-copper)" font-weight="700">2 ₽</text>
+              <text x="205" y="114" text-anchor="middle" fill="var(--rz-ink2)" font-size="18">×</text>
+              <rect x="220" y="86" width="150" height="46" rx="8" fill="var(--rz-card2)" stroke="var(--rz-line2)"/>
+              <text x="295" y="106" text-anchor="middle" fill="var(--rz-ink)" font-size="12">10 кредитов</text>
+              <text x="295" y="124" text-anchor="middle" fill="var(--rz-copper)" font-weight="700">×10</text>
+              <text x="385" y="114" text-anchor="middle" fill="var(--rz-ink2)" font-size="18">=</text>
+              <rect x="400" y="86" width="180" height="46" rx="8" fill="var(--rz-copper-soft)" stroke="var(--rz-copper2)"/>
+              <text x="490" y="106" text-anchor="middle" fill="var(--rz-ink)" font-size="12">ставка за спин</text>
+              <text x="490" y="124" text-anchor="middle" fill="var(--rz-copper)" font-weight="700">20 ₽</text>
+              <text x="610" y="112" fill="var(--rz-ink3)" font-size="12">243 Ways</text>
+            </g>
+            <g>
+              <rect x="20" y="148" width="350" height="46" rx="8" fill="var(--rz-card2)" stroke="var(--rz-line2)"/>
+              <text x="195" y="168" text-anchor="middle" fill="var(--rz-ink)" font-size="12">переменные ряды → до 117 649 комбинаций</text>
+              <text x="195" y="186" text-anchor="middle" fill="var(--rz-ink3)" font-size="11">цена задаётся сразу, линий нет</text>
+              <text x="385" y="176" text-anchor="middle" fill="var(--rz-ink2)" font-size="18">=</text>
+              <rect x="400" y="148" width="180" height="46" rx="8" fill="var(--rz-copper-soft)" stroke="var(--rz-copper2)"/>
+              <text x="490" y="168" text-anchor="middle" fill="var(--rz-ink)" font-size="12">ставка за спин</text>
+              <text x="490" y="186" text-anchor="middle" fill="var(--rz-copper)" font-weight="700">от 20 ₽</text>
+              <text x="610" y="174" fill="var(--rz-ink3)" font-size="12">Megaways</text>
+            </g>
+          </g>
+        </svg>
+        </div>
+        <div class="rz-cap">Три способа формирования суммы за спин; итог одинаковый при одних цифрах, но задаётся он разными полями в кассе игры.</div>
+        <div class="rz-tab"><table>
+          <thead><tr><th>Механика</th><th>Как платит</th><th>Комбинаций</th><th class="rz-num">Пример ставки</th></tr></thead>
+          <tbody>
+            <tr><td>Линии (paylines)</td><td>символы по линии слева направо</td><td>10–50 линий</td><td class="rz-num">1 ₽ × 20 = 20 ₽</td></tr>
+            <tr><td>243 Ways</td><td>соседние барабаны в любой позиции</td><td>243</td><td class="rz-num">2 ₽ × 10 = 20 ₽</td></tr>
+            <tr><td>Megaways</td><td>переменные ряды, оплата по путям</td><td>до 117 649</td><td class="rz-num">от 20 ₽</td></tr>
+          </tbody>
+        </table></div>
+      </figure>
+
+      <p>Почему это важно до первого депозита: при банке 1000 ₽ ставка 20 ₽ за вращение даёт запас примерно на 50 прокруток без выигрышей, а ставка 100 ₽ — всего на 10. На высоковолатильной игре вторая сумма почти гарантированно не доживёт до бонуса. Поэтому размер ставки стоит считать от числа вращений, которое хочется сыграть, а не от цены линии. Отключать часть линий в играх с фиксированными линиями обычно нельзя, и попытка «сэкономить», уменьшив число линий там, где это разрешено, снижает шанс собрать выигрышную комбинацию — экономия мнимая.</p>
+      <details class="rz-qa"><summary>Больше линий — выше шанс выиграть</summary><div class="rz-ab"><p>Больше активных линий даёт больше способов собрать комбинацию за спин, но и ставка за спин растёт пропорционально. На математическое ожидание и RTP число линий не влияет — меняется только частота и размер отдельных выплат. Выгоды «включить все линии» в терминах дистанции нет, это вопрос стиля игры и расхода банка.</p></div></details>
+      </div>
+    </div>
+  </section>
+
+  <section class="rz-sec" id="simvoly">
+    <div class="rz-text">
+      <h2>Scatter, wild и фриспины: какие символы запускают бонусную игру</h2>
+      <div class="rz-body">
+      <p class="rz-first">В основе почти любого современного видеослота три особых символа, и <b>новичку достаточно понимать, что делает каждый.</b> <strong>Wild</strong> («дикий») заменяет обычные символы и достраивает комбинацию. <strong>Scatter</strong> («разброс») платит и запускает бонус, где бы ни выпал, без привязки к линии. Фриспины (бесплатные вращения) — самая частая бонусная игра, и запускает её обычно выпадение трёх и более scatter за один спин.</p>
+      <p class="rz-def">Wild бывает нескольких видов, и это меняет ценность бонуса: <strong>expanding</strong> растягивается на весь барабан, <strong>sticky</strong> остаётся на месте несколько спинов, <strong>walking</strong> сдвигается по барабанам, а wild с множителем умножает выигрыш, в который вошёл. Внутри фриспинов часто работают дополнительные механики — <strong>каскад</strong> (tumble, avalanche), когда выигравшие символы исчезают, а на их место падают новые, и <strong>множитель</strong>, растущий с каждым каскадом. Иногда во фриспинах можно собрать <strong>retrigger</strong> — повторный запуск бесплатных вращений. Все условия — сколько scatter нужно, сколько спинов даёт бонус, как растёт множитель — расписаны в таблице выплат, и прочитать их стоит <span class="rz-mk">до покупки или запуска бонуса</span>, а не внутри него.</p>
+
+      <div class="rz-tab rz-sheet"><table>
+        <caption>Особые символы и что они делают — свод для таблицы выплат любого автомата</caption>
+        <thead><tr><th>Символ или механика</th><th>Что делает</th><th>На что смотреть в правилах</th></tr></thead>
+        <tbody>
+          <tr><td>Wild</td><td>заменяет обычные символы</td><td>тип: expanding, sticky, walking, с множителем</td></tr>
+          <tr><td>Scatter</td><td>платит вне линий, запускает бонус</td><td>сколько штук нужно для фриспинов (чаще 3)</td></tr>
+          <tr><td>Фриспины</td><td>серия бесплатных вращений</td><td>число спинов, условия ретригера</td></tr>
+          <tr><td>Каскад (tumble)</td><td>символы падают после выигрыша</td><td>растёт ли множитель с каждым каскадом</td></tr>
+          <tr><td>Множитель</td><td>умножает выигрыш</td><td>где применяется: база, бонус, оба режима</td></tr>
+          <tr><td>Бонусный символ</td><td>открывает мини-игру или колесо</td><td>фиксированная выплата или с выбором</td></tr>
+        </tbody>
+      </table></div>
+
+      <p>Распространённое заблуждение — ждать scatter «через столько-то спинов». Их выпадение задаёт тот же генератор случайных чисел, и частота бонуса (bonus frequency) — это средняя величина на дистанции, а не расписание. У высоковолатильных тайтлов бонус может не приходить сотни вращений, у спокойных — срабатывать часто, но давать скромные суммы. Для первых сессий полезнее автомат, где бонусная игра запускается заметно часто: так новичок увидит, как работают фриспины и множители, не потратив весь банк на ожидание.</p>
+      <details class="rz-qa"><summary>Что ценнее во фриспинах — много спинов или высокий множитель</summary><div class="rz-ab"><p>Зависит от механики. Серия из большого числа спинов без множителя даёт ровный прирост, а короткая серия с растущим множителем и каскадами — редкий, но крупный результат. Цену обеих механик уже учитывает математика игры и её RTP, поэтому «выгоднее» здесь — это вопрос волатильности, которую вы готовы терпеть, а не скрытого преимущества.</p></div></details>
+      </div>
+    </div>
+  </section>
+
+  <section class="rz-sec" id="baybonus">
+    <div class="rz-text">
+      <h2>Бай-бонус и покупка функции: цена входа в фриспины и её влияние на отдачу</h2>
+      <div class="rz-body">
+      <p class="rz-first">В части автоматов есть кнопка «купить функцию» — <b>бай-бонус (feature buy), и новичку важно понять, что это дорогой и высоковолатильный ход, а не ускоренный путь к выигрышу.</b> Покупка сразу запускает бонусную игру за фиксированную цену, обычно от 50 до 100 ставок: при сумме 20 ₽ за вращение вход в фриспины «Медного Рудника» стоит около 1600–2000 ₽.</p>
+      <p class="rz-def">У режима с покупкой нередко <strong>своя версия RTP</strong> — у «Медного Рудника» это 96,5 % против базовой 96,2 %. Возврат чуть выше, но это не делает покупку выгодной: цена входа заложена так, что средний итог бонусной игры её не покрывает, а разброс огромный — один вход может вернуть ноль, другой дать максимум. Для банка новичка это означает, что <span class="rz-mk">одна покупка способна забрать весь депозит за одно вращение</span>. Отдельно считают показатель «цена входа к средней выплате» — он почти всегда больше единицы, иначе функцию не продавали бы.</p>
+
+      <div class="rz-tab rz-sheet"><table>
+        <caption>Покупка бонуса «Медного Рудника»: что входит в цену (расчётный пример)</caption>
+        <thead><tr><th>Параметр</th><th class="rz-num">Значение</th><th>Пояснение</th></tr></thead>
+        <tbody>
+          <tr><td>Ставка за спин</td><td class="rz-num">20 ₽</td><td>базовая сумма</td></tr>
+          <tr><td>Цена покупки</td><td class="rz-num">×90</td><td>90 ставок за вход</td></tr>
+          <tr><td>Стоимость входа</td><td class="rz-num">1800 ₽</td><td>списывается сразу</td></tr>
+          <tr><td>RTP режима покупки</td><td class="rz-num">96,5 %</td><td>своя конфигурация</td></tr>
+          <tr><td>Типичный возврат</td><td class="rz-num">0–40×</td><td>огромный разброс на вход</td></tr>
+          <tr><td>При игре с бонуса</td><td class="rz-num"><span class="rz-pill b">запрещено</span></td><td>аннулирует отыгрыш</td></tr>
+        </tbody>
+      </table></div>
+
+      <p>Ещё важнее правило, которое новички узнают постфактум: <strong>при активном поощрении покупку функции почти всегда отключают</strong>, а в ряде условий её использование прямо аннулирует отыгрыш и выигрыш. Причина та же, что у лимита ставки при вейджере, — защита оператора от попытки «пробить» отыгрыш одной дорогой покупкой. Некоторые площадки убирают эту кнопку и в обычной игре по требованиям своей лицензии. Вывод для разбора простой: бай-бонус — инструмент для осознанной игры на свои средства с пониманием риска, и он не входит в сценарий первых сессий и отыгрыша.</p>
+      <details class="rz-qa"><summary>Если RTP покупки выше, не выгоднее ли всегда покупать бонус</summary><div class="rz-ab"><p>Нет. Более высокий RTP режима покупки компенсируется ценой входа и резко возросшей дисперсией: вы платите вперёд сумму, которую средний бонус не возвращает, и ставите весь результат на один высоковолатильный эпизод. На дистанции разница в возврате измеряется долями процента, а шанс быстро потерять банк — вполне реальный.</p></div></details>
+      </div>
+    </div>
+  </section>
+
+  <section class="rz-sec" id="veydzher">
+    <div class="rz-text">
+      <h2>Вклад игр в отыгрыш: почему вейджер на автоматах считается по-особому</h2>
+      <div class="rz-body">
+      <p class="rz-first">Вейджер отпугивает новичков формулировками, но суть простая: <b>это множитель, на который нужно прокрутить поощрение до вывода, и автоматы прокручивают его быстрее всего.</b> Запись «вейджер x35» на подарок 3000 ₽ означает оборот ставок 105 000 ₽. Но засчитывается этот оборот по-разному в зависимости от игры — через так называемый вклад (game weighting).</p>
+      <p class="rz-def">Стандартная шкала вклада: автоматы — <strong>100 %</strong>, то есть сумма 100 ₽ уменьшает остаток отыгрыша на 100 ₽; настольные игры и рулетка — часто <strong>10 % или 0 %</strong>; живые игры с дилером — нередко 0 %. Именно поэтому поощрение отыгрывают на автоматах. Внутри них бывают исключения: отдельные высоко-RTP тайтлы и джекпот-игры могут давать сниженный вклад или вовсе не учитываться — перечень исключённых игр указан в правилах. У отыгрыша есть и срок (часто <span class="rz-mk">7 дней</span>), после которого невыполненный вейджер и остаток подарка сгорают, а у бездепозитных предложений — ещё и max cashout, потолок суммы к выводу.</p>
+
+      <div class="rz-tab rz-sheet"><table>
+        <caption>Вклад игр в отыгрыш вейджера — типичная шкала (условия читать у конкретного бонуса)</caption>
+        <thead><tr><th>Категория игр</th><th class="rz-num">Вклад</th><th>Что это значит</th></tr></thead>
+        <tbody>
+          <tr><td>Автоматы (большинство)</td><td class="rz-num">100 %</td><td>отыгрыш идёт в полном объёме</td></tr>
+          <tr><td>Автоматы из стоп-листа</td><td class="rz-num">0–50 %</td><td>высокий RTP или джекпот — исключены</td></tr>
+          <tr><td>Рулетка, настольные</td><td class="rz-num">10 %</td><td>оборот засчитывается в десять раз медленнее</td></tr>
+          <tr><td>Игры с живым дилером</td><td class="rz-num">0 %</td><td>не учитываются в отыгрыше</td></tr>
+        </tbody>
+      </table></div>
+
+      <p>Разберём на числах. Подарок 3000 ₽ при вейджере x35 — это оборот 105 000 ₽. На автоматах со вкладом 100 % его реально прокрутить; на рулетке со вкладом 10 % тот же объём потребовал бы оборота, в десять раз большего по времени и риску, — отыгрыш практически не выполним. Перед тем как взять приветственный пакет, новичку стоит проверить четыре числа: размер вейджера, перечень игр со сниженным вкладом, срок отыгрыша и лимит ставки при активном поощрении. Последний — отдельный пункт разбора ниже, потому что именно на нём срывается больше всего отыгрышей.</p>
+      <details class="rz-qa"><summary>Почему мой бонус отыгрывается медленнее, чем я считал</summary><div class="rz-ab"><p>Чаще всего причина во вкладе игр: если часть ставок сделана в играх со вкладом 10 % или 0 %, они почти не уменьшают остаток отыгрыша. Вторая причина — игра из стоп-листа бонуса, которая не засчитывается вовсе. Проверьте в правилах бонуса раздел про вклад и исключённые игры и ведите отыгрыш только на автоматах со вкладом 100 %.</p></div></details>
+      </div>
+    </div>
+  </section>
+
+  <section class="rz-sec" id="maxbet">
+    <div class="rz-text">
+      <h2>Максимальная ставка при отыгрыше: лимит, который аннулирует выигрыш с бонуса</h2>
+      <div class="rz-body">
+      <p class="rz-first">Это правило срывает отыгрыш чаще всех остальных, и о нём молчит реклама поощрений: <b>пока бонус не отыгран, действует лимит ставки за вращение, и его превышение позволяет аннулировать подарок вместе с выигрышем.</b> Типичный потолок — 300 ₽ за вращение или эквивалент около 5 €. Поставили 350 ₽ хотя бы один раз за период отыгрыша — и по правилам оператор вправе обнулить и подарок, и всё, что на него наиграно.</p>
+      <p class="rz-def">Лимит существует, чтобы поощрение нельзя было отыграть одной крупной ставкой: без него игрок ставил бы весь баланс на вращение высоковолатильной игры и выводил редкий занос. Поэтому в большинстве правил этот пункт прописан отдельно, а система отслеживает размер каждой ставки весь период отыгрыша. Ошибка почти всегда случайная: после пополнения автомат иногда предлагает сумму больше лимита по умолчанию, или рука срабатывает на кнопке максимальной ставки. Защита простая — <span class="rz-mk">выставить ставку ниже лимита вручную сразу после активации</span> и не трогать «max bet» и автоспин с чужими настройками.</p>
+
+      <div class="rz-tab rz-sheet"><table>
+        <caption>Лимит ставки при отыгрыше: что проверить до первого спина (расчётный пример)</caption>
+        <thead><tr><th>Пункт</th><th class="rz-num">Пример значения</th><th>Риск при нарушении</th></tr></thead>
+        <tbody>
+          <tr><td>Max bet при бонусе</td><td class="rz-num">300 ₽ / спин</td><td>превышение — аннулирование</td></tr>
+          <tr><td>Ставка по умолчанию</td><td class="rz-num">может быть 400 ₽</td><td>проверить и снизить вручную</td></tr>
+          <tr><td>Учёт ставок кнопки «max»</td><td class="rz-num">да</td><td>одна ставка ломает весь отыгрыш</td></tr>
+          <tr><td>Автоспин</td><td class="rz-num">наследует сумму</td><td>держит превышение много спинов</td></tr>
+          <tr><td>Срок отыгрыша</td><td class="rz-num">7 дней</td><td>остаток сгорает по истечении</td></tr>
+        </tbody>
+      </table></div>
+
+      <p>Связка трёх правил — вейджер, вклад игр и лимит ставки — и есть то, что делает поощрение новичка либо рабочим, либо декоративным. Если вейджер подъёмный, вклад автоматов 100 %, а лимит удобный, предложение имеет смысл брать. Если вейджер высокий, лимит занижен, а срок короткий, приветственный пакет выгоднее пропустить и играть на свои средства без обязательств по отыгрышу. Понимание этих условий — не меньшая часть разбора автоматов, чем RTP и волатильность, потому что именно здесь теряются уже выигранные деньги.</p>
+      <details class="rz-qa"><summary>Если я превысил лимит ставки случайно, бонус точно аннулируют</summary><div class="rz-ab"><p>Правила дают оператору право аннулировать бонус и выигрыш с него при любом превышении, намеренном или случайном, — автоматическая система не различает причину. На практике исход зависит от условий и службы поддержки, но рассчитывать на снисхождение не стоит. Надёжнее не допускать превышения: выставить ставку ниже лимита вручную и проверять её после каждого пополнения.</p></div></details>
+      </div>
+    </div>
+  </section>
+
+  <section class="rz-sec" id="demo">
+    <div class="rz-text">
+      <h2>Демо-режим: что показывает бесплатная игра и чем её RTP отличается от социальных копий</h2>
+      <div class="rz-body">
+      <p class="rz-first">Демо-режим — главный безопасный инструмент новичка: <b>та же игра на условные фишки, без депозита и часто без регистрации, с тем же сертифицированным генератором случайных чисел.</b> В демо стоит открыть таблицу выплат, посмотреть, как часто приходит бонус, как ведёт себя баланс при вашей будущей ставке и что делают wild и множители. Это изучение механики без расходов, и к первому депозиту вы подходите, уже понимая игру.</p>
+      <p class="rz-def">У демо есть две оговорки. Первая: оператор может запустить на деньги <strong>другую версию RTP</strong>, чем в демо, поэтому ощущение «щедрости» из бесплатного режима не переносится на реальный баланс автоматически — версию возврата всё равно нужно проверить в правилах. Вторая, важнее: не путайте демо-режим лицензионного видеослота с <strong>социальными казино</strong> и бесплатными приложениями «слотов», где показанная «отдача» настроена на удержание и <span class="rz-mk">не отражает реальный RTP</span>. По такому приложению нельзя судить ни о волатильности, ни о возврате настоящего автомата. Для разбора годится только демо той же игры у площадки с лицензией и проверяемым сертификатом лаборатории.</p>
+
+      <div class="rz-tab rz-sheet"><table>
+        <caption>Демо-режим против социальной копии — что можно и нельзя оценивать</caption>
+        <thead><tr><th>Что оцениваем</th><th>Демо лицензионной игры</th><th>Социальное приложение</th></tr></thead>
+        <tbody>
+          <tr><td>Таблица выплат и правила</td><td><span class="rz-pill g">можно</span></td><td><span class="rz-pill w">не всегда совпадает</span></td></tr>
+          <tr><td>Поведение волатильности</td><td><span class="rz-pill g">можно</span></td><td><span class="rz-pill b">нельзя</span></td></tr>
+          <tr><td>Реальный RTP</td><td><span class="rz-pill w">проверить версию</span></td><td><span class="rz-pill b">нельзя</span></td></tr>
+          <tr><td>Частота бонуса</td><td><span class="rz-pill g">ориентировочно</span></td><td><span class="rz-pill b">искажена</span></td></tr>
+        </tbody>
+      </table></div>
+
+      <p>Практический порядок для первой сессии складывается из всего разбора: открыть демо и изучить таблицу выплат, выбрать невысокую волатильность, проверить версию RTP и сертификат лаборатории в правилах, посчитать ставку за спин от числа прокруток, которое вы готовы сыграть, а бонус брать только при подъёмном вейджере, вкладе автоматов 100 % и удобном лимите ставки. Такой подход не обещает выигрыша — его не обещает ни одна механика с преимуществом оператора, — но убирает ошибки, которые стоят денег ещё до того, как игра успевает начаться.</p>
+      <details class="rz-qa"><summary>Если в демо шла хорошая игра, повторится ли это на деньги</summary><div class="rz-ab"><p>Прямой связи нет. Результат в демо — это такая же случайная выборка, как и на деньги, а версия RTP на реальном балансе может отличаться. Демо показывает механику и характер игры, но не предсказывает вашу будущую сессию: каждый спин независим, и удачный бесплатный заход ничего не резервирует для игры на средства.</p></div></details>
+      </div>
+    </div>
+  </section>
+
+  <section class="rz-sec" id="voprosy">
+    <div class="rz-text">
+      <h2>Вопросы новичка о механике автоматов</h2>
+      <div class="rz-body">
+        <details class="rz-qa"><summary>Что такое RTP у слота и почему у одной игры бывает несколько значений</summary><div class="rz-ab"><p>RTP — это теоретический процент возврата на длинной дистанции в миллионы спинов, а не обещание выплаты за сессию. У одной игры провайдер нередко выпускает несколько сертифицированных версий RTP, например 96,2 %, 94,0 % и 92,1 %, и оператор выбирает, какую запустить. Фактическую версию видно в информационном окне игры — ищите строку RTP в разделе с правилами и таблицей выплат до первого спина.</p></div></details>
+        <details class="rz-qa"><summary>Чем волатильность отличается от дисперсии простыми словами</summary><div class="rz-ab"><p>Волатильность описывает характер игры: низкая даёт частые мелкие выплаты, высокая — редкие, но крупные. Дисперсия — это числовая мера разброса результата вокруг среднего, выраженная через стандартное отклонение. Высокая волатильность означает большую дисперсию, поэтому на короткой сессии итог сильно отклоняется от RTP в обе стороны, и банк на высоковолатильной игре расходуется быстрее.</p></div></details>
+        <details class="rz-qa"><summary>Как из линий и Ways складывается ставка за спин</summary><div class="rz-ab"><p>В игре с линиями ставка за спин равна ставке на линию, умноженной на число активных линий: 1 ₽ на линию при 20 линиях — это 20 ₽ за спин. В играх типа 243 Ways или Megaways линий нет, и ставка делится на фиксированное число (чаще 10, 20 или 25), поэтому минимальная ставка за спин задаётся сразу целиком. Итоговую сумму всегда показывает поле общей ставки под барабанами.</p></div></details>
+        <details class="rz-qa"><summary>Что такое бай-бонус и почему его стоит понимать новичку</summary><div class="rz-ab"><p>Бай-бонус (feature buy) — это покупка входа в бонусную игру за фиксированную цену, обычно от 50 до 100 ставок. У версии с покупкой часто своя конфигурация RTP, нередко выше базовой, но цена входа превышает средний результат бонуса, поэтому риск на одну покупку высокий. При игре с бонусных средств покупку функции почти всегда отключают, а её использование в ряде правил аннулирует отыгрыш.</p></div></details>
+        <details class="rz-qa"><summary>Как считается вейджер бонуса на слотах</summary><div class="rz-ab"><p>Вейджер — это множитель, на который нужно прокрутить сумму бонуса перед выводом, например x35. Вклад игр в отыгрыш разный: автоматы обычно засчитываются на 100 %, настольные игры и рулетка — на 10 % или 0 %. Это и значит «вейджер на слотах»: прокрутить бонус быстрее всего именно на автоматах, но внутри них бывают исключённые игры, список которых указан в правилах бонуса.</p></div></details>
+        <details class="rz-qa"><summary>Почему максимальная ставка при отыгрыше аннулирует выигрыш</summary><div class="rz-ab"><p>При активном бонусе действует лимит ставки за спин, часто 300 ₽ или эквивалент около 5 €. Он не даёт отыграть бонус одной крупной ставкой и защищает оператора. Если хотя бы один спин превысит лимит, правила позволяют аннулировать бонус и выигрыш с него, даже если это вышло случайно. Поэтому до отыгрыша нужно вручную выставить ставку ниже лимита и держать её весь период.</p></div></details>
+        <details class="rz-qa"><summary>Зачем новичку демо-режим и отличается ли его RTP от игры на деньги</summary><div class="rz-ab"><p>Демо-режим запускает ту же игру на условные фишки без депозита и регистрации — он нужен, чтобы изучить таблицу выплат, частоту бонуса и поведение волатильности без расходов. Сертифицированный генератор случайных чисел в демо тот же, но оператор может запустить другую версию RTP, чем на деньги. Отдельно стоит различать социальные казино: показанная там «отдача» не отражает реальный RTP и для оценки игры не годится.</p></div></details>
+      </div>
+    </div>
+  </section>
+
+  <section class="rz-sec" id="otvetstvenno">
+    <div class="rz-text">
+      <div class="rz-note">
+        <p><b>Ответственная игра, 18+.</b> Автоматы устроены с математическим преимуществом оператора: на дистанции игра в минус, и ни RTP, ни волатильность, ни демо этого не меняют. Разбор механики нужен, чтобы понимать правила и не терять деньги на ошибках, а не чтобы «обыграть» автомат. Ставьте только сумму, потерю которой спокойно переживёте, выставляйте лимиты депозита и времени до начала и пользуйтесь инструментами самоисключения и тайм-аута, если игра перестаёт быть развлечением. Бесплатную помощь при игровой зависимости оказывают профильные горячие линии.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="rz-sec" id="kanal">
+    <div class="rz-wide">
+      <div class="rz-ch">
+        <h2>Что уточняется в разборе и где выходит канал редакции</h2>
+        <p>Разбор дополняется, когда у провайдеров меняются стандартные значения RTP и механики, у лабораторий — требования к сертификации генераторов, а у операторов — условия бонусов: размер вейджера, вклад игр и лимит ставки при отыгрыше. Короткие заметки о новых механиках автоматов и разборы свежих бонусных условий для новичков выходят в канале редакции.</p>
+        <a class="rz-cta" href="https://t.me/top_casino_2027" rel="noopener" target="_blank">
+          <svg viewBox="0 0 24 24" aria-hidden="true" fill="currentColor"><path d="M21.9 4.3l-3.3 15.6c-.25 1.1-.9 1.37-1.83.85l-5.05-3.72-2.44 2.35c-.27.27-.5.5-1 .5l.36-5.1L17.8 6.2c.4-.36-.09-.56-.62-.2L6.9 12.45l-4.98-1.56c-1.08-.34-1.1-1.08.23-1.6l19.44-7.5c.9-.33 1.69.22 1.31 1.51z"/></svg>
+          Канал редакции в Telegram
+        </a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="rz-foot">
+  <div class="rz-footin">
+    <div>
+      <div class="rz-mark" style="margin-bottom:10px">
+        <svg viewBox="0 0 40 40" aria-hidden="true"><rect width="40" height="40" rx="9" fill="var(--rz-copper-soft)"/><rect x="7" y="9" width="26" height="22" rx="4" fill="none" stroke="var(--rz-copper)" stroke-width="2"/><line x1="15.7" y1="9" x2="15.7" y2="31" stroke="var(--rz-copper)" stroke-width="1.5"/><line x1="24.3" y1="9" x2="24.3" y2="31" stroke="var(--rz-copper)" stroke-width="1.5"/></svg>
+        Слот по пунктам
+      </div>
+      <p>Независимый разбор механики игровых автоматов для новичков. Материал объясняет правила и условия, не является рекламой и не предлагает игру. Автоматы «Медный Рудник», «Тихая Гавань» и «Пыльная Тропа» — расчётные примеры, их названия и числа условны.</p>
+      <p>Материал обновлён 1 октября 2026 года.</p>
+    </div>
+    <div>
+      <h4>Разделы</h4>
+      <p><a href="#rtp">RTP и его версии</a></p>
+      <p><a href="#vol">Волатильность и дисперсия</a></p>
+      <p><a href="#linii">Линии, Ways, Megaways</a></p>
+      <p><a href="#baybonus">Бай-бонус</a></p>
+      <p><a href="#veydzher">Вейджер и вклад игр</a></p>
+    </div>
+    <div>
+      <h4>Проверка и реестры</h4>
+      <p><a href="https://www.itechlabs.com/" rel="nofollow noopener" target="_blank">iTech Labs — сертификация</a></p>
+      <p><a href="https://www.gaminglabs.com/" rel="nofollow noopener" target="_blank">GLI — лаборатория</a></p>
+      <p><a href="https://www.mga.org.mt/" rel="nofollow noopener" target="_blank">Реестр MGA</a></p>
+      <p style="color:var(--rz-ink3);margin-top:10px">Редакция «Слот по пунктам»</p>
+    </div>
+  </div>
+  <p class="rz-fnote">Азартные игры связаны с риском потери денег. Материал предназначен для лиц старше 18 лет и носит справочный характер. © 2026 «Слот по пунктам».</p>
+</footer>
+
+<script>
+(function(){
+  var top=document.getElementById('rz-top');
+  var onScroll=function(){ if(top) top.classList.toggle('rz-stuck', window.scrollY>8); };
+  onScroll(); window.addEventListener('scroll',onScroll,{passive:true});
+
+  var tgl=document.getElementById('rz-tgl');
+  try{var saved=localStorage.getItem('rz-theme'); if(saved) document.documentElement.setAttribute('data-theme',saved);}catch(e){}
+  if(tgl){ tgl.addEventListener('click',function(){
+    var cur=document.documentElement.getAttribute('data-theme');
+    var dark=window.matchMedia&&window.matchMedia('(prefers-color-scheme:dark)').matches;
+    var next=(cur? cur==='dark' : dark) ? 'light':'dark';
+    document.documentElement.setAttribute('data-theme',next);
+    try{localStorage.setItem('rz-theme',next);}catch(e){}
+  }); }
+
+  var links=[].slice.call(document.querySelectorAll('.rz-rail a'));
+  var map={}; links.forEach(function(a){var id=a.getAttribute('href').slice(1); var s=document.getElementById(id); if(s) map[id]=a;});
+  if('IntersectionObserver' in window){
+    var io=new IntersectionObserver(function(ents){
+      ents.forEach(function(en){ var a=map[en.target.id]; if(!a) return;
+        if(en.isIntersecting){ links.forEach(function(l){l.removeAttribute('aria-current');}); a.setAttribute('aria-current','true'); }
+      });
+    },{rootMargin:'-40% 0px -55% 0px'});
+    Object.keys(map).forEach(function(id){var s=document.getElementById(id); if(s) io.observe(s);});
+  }
+})();
+</script>
+</body>
+</html>

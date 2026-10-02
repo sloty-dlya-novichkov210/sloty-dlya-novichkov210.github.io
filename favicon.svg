@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40" role="img" aria-label="Разбор слота">
+  <rect width="40" height="40" rx="9" fill="#f5f2ec"/>
+  <rect x="7" y="9" width="26" height="22" rx="4" fill="none" stroke="#b5551d" stroke-width="2"/>
+  <line x1="15.7" y1="9" x2="15.7" y2="31" stroke="#b5551d" stroke-width="1.6"/>
+  <line x1="24.3" y1="9" x2="24.3" y2="31" stroke="#b5551d" stroke-width="1.6"/>
+  <circle cx="11.3" cy="20" r="2.4" fill="#9c4716"/>
+  <rect x="18" y="17.6" width="4.4" height="4.8" rx="1" fill="#2d7561"/>
+  <path d="M28.6 17.4l1.2 2.3 1.2-2.3-1.2-2.3z" fill="#8a6414"/>
+</svg>
